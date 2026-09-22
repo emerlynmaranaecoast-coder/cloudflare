@@ -68,7 +68,7 @@ form?.addEventListener('submit', (e)=>{
     btn.textContent = orig;
     btn.disabled = false;
     form.reset();
-    showToast('✅ Natanggap na ang application mo! Tatawagan ka ng ECAST admissions within 24 hours. Check your email!');
+    showToast('✅ Natanggap na ang application mo! Tatawagan ka ng ECOAST admissions within 24 hours. Check your email!');
     // confetti effect simple
     document.body.insertAdjacentHTML('beforeend', `<div style="position:fixed;inset:0;pointer-events:none;display:grid;place-items:center;z-index:99" id="conf"><div style="font-size:64px;animation:pop .6s ease">🎉</div></div>`);
     setTimeout(()=> document.getElementById('conf')?.remove(), 1200);
